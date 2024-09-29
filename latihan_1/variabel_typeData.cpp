@@ -7,7 +7,7 @@ int main() {
 	int age;
 	char gender;
 	
-	cout<<"===== Introducation "<<endl;
+	cout<<"===== Introducation ====="<<endl;
 	cout<<endl;
 	cout<<"What's your name : "<<endl;
 	cout<<"Answer : ";
@@ -17,7 +17,7 @@ int main() {
 	cout<<"Answer : ";
 	cin >> age;
 	
-	cout<<"What is your gender [Male|Female] : "<<endl;
+	cout<<"What is your gender [M for Male |F for Female] : "<<endl;
 	cout<<"Answer : ";
 	cin >> gender;
 	
