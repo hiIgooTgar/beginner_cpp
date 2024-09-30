@@ -5,7 +5,7 @@ int main() {
 	
 	auto name = "Igo Tegar Prambudhy";
 	auto age = 18;
-	auto height = 170.5;
+	auto height = 169.5;
 	auto married = false;
 	
 	cout<<"Name : "<< name <<endl;
@@ -32,7 +32,7 @@ Untuk variabel yang kita isi dengan teks "Igo Tegar Prambudhy" ternyata tipe dat
 Lalu untuk variabel lainnya:
 
 angka 18 tipe datanya adalah i (integer)
-angka 170.5 tipe datanya adalah d (double)
+angka 169.5 tipe datanya adalah d (double)
 false tipe datanya adalah b (boolean)
 
 */
