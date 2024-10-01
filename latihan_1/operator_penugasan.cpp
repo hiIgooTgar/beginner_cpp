@@ -31,3 +31,4 @@ int main() {
 }
 
 
+// “operator penugasan digunakan untuk mengisi nilai.”
