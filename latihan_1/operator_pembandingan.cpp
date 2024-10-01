@@ -8,8 +8,8 @@ int main() {
 	b = 3;
 	bool hasil;
 	
-	cout<<"Nilai a = "<< a <<endl;
-	cout<<"Nilai b = "<< b << endl;
+	cout<<"Nilai a = "<<a<<endl;
+	cout<<"Nilai b = "<<b<< endl;
 	
 	cout<<endl;
 	

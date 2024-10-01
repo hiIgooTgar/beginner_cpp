@@ -11,7 +11,7 @@ int main() {
 	cout<<"b = "<<b<<endl;
 	
 	
-	hasil = a && b;
+	hasil = a&&b;
 	cout<<"Hasil a && b = "<<hasil<<endl;
 	
 	hasil = a||b;
