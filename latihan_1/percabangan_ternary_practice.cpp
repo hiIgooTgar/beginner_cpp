@@ -1,15 +1,20 @@
 #include <iostream>
+#include <cstdlib>
+#include <cstdlib>
+
 using namespace std;
 
 int main() {
 	
 	int jawaban;
+	unsigned int a = rand() % 101;
+	unsigned int b = rand() % 101;
 	string hasil;
 	
-	cout<<"Penjumlahan dari 10 + 21 adalah ";
+	cout<<"Penjumlahan dari "<< a << " + "<< b <<" adalah ";
 	cin >> jawaban;
 	
-	hasil = (jawaban == 31) ? "Ya anda benar jawabanya 31" : "Yah salah, anda harus belajar lagi";
+	hasil = jawaban == (a + b) ? "Ya anda benar" : "Yah salah, anda harus belajar lagi";
 	cout<<hasil<<endl;
 	
 	return 0;
