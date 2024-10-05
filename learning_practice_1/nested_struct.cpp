@@ -42,11 +42,21 @@ int main() {
 		}
 	};
 	
-	printf("Name : %s \n", hero2.name.c_str());
+	printf("Name Heroes : %s \n", hero2.name.c_str());
 	printf("Health Point : %i \n", hero2.healthPoint);
 	printf("Weapon Name : %s \n", hero2.weapon.name.c_str());
 	printf("Attack Power : %i \n", hero2.weapon.attackPower);
 	printf("Range : %i \n", hero2.weapon.range);
+	
+	printf("\n");
+	printf("\n");
+	
+	Hero hero3 = {"Garuda", 1800, {"Cakra", 300, 150}};
+	printf("Name Heroes : %s \n", hero3.name.c_str());
+	printf("Health Point : %i \n", hero3.healthPoint);
+	printf("Weapon Name : %s \n", hero3.weapon.name.c_str());
+	printf("Attack Power : %i \n", hero3.weapon.attackPower);
+	printf("Range : %i \n", hero3.weapon.range);
 
 	return 0;
 }
