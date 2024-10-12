@@ -14,7 +14,7 @@ int main() {
 	scanf("%i", &b);
 	
 	cout<<endl;
-	
+	1
 	if(a % 2 == 0) {
 		cout<<a << " adalah bilangan genap"<<endl;
 	} else {
