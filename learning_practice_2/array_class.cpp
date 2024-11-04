@@ -8,7 +8,7 @@ int main() {
 	printf("As many array id %i : \n", name.size());
 	
 	for(int a = 0; a < name.size(); a++) {
-		cout<<". "<< name[a]<<endl
+		cout<<". "<< name[a]<<endl;
 	}
 	
 	return 0;
