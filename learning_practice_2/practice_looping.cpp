@@ -4,7 +4,7 @@ using namespace std;
 void square(int square) {
 	for(int a = 0; a <= square; a++) {
 		for(int b = 0; b <= square; b++) {
-			printf("*");
+			cout<<b
 		}
 		printf("\n");
 	}
