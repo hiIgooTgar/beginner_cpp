@@ -24,10 +24,10 @@ int main() {
 	int makanan, jumlahMakanan, minuman, jumlahMinuman, totalMakanan, totalMinuman, pembayaran, totalTagihan;
 	cout<<"===== Restoran Eiao | Banten ====="<<endl;
 	cout<<"Masukan nama kostumer : ";
-	cin >> kostumer;
+	getline(cin, kostumer);
 	cout<<"Masukan alamat kostumer : ";
 	cin >> alamatKostumer;
-	cout<<endl;
+	getline(cin, alamatKostumer);
 	detailMenuMakanan();
 	cout<<endl;
 	cout<<"Masukkan pilihan makanan (1-5) : ";
